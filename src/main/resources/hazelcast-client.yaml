@@ -1,4 +1,8 @@
 hazelcast-client:
+  metrics:
+    enabled: false
+    jmx:
+      enabled: false
   network:
     cluster-members:
       - 172.17.0.1
