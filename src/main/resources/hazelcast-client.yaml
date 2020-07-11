@@ -4,5 +4,6 @@ hazelcast-client:
     jmx:
       enabled: false
   network:
+    smart-routing: false
     cluster-members:
       - 172.17.0.1
